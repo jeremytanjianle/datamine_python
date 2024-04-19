@@ -13,7 +13,7 @@ setup(
     maintainer="Hamza Amjad",
     maintainer_email="hamza.amjad@cmegroup.com",
     license="BSD 3-Clause",
-    install_requires=['requests', 'urllib3', 'pandas', 'tqdm', 'futures'],
+    install_requires=['requests', 'urllib3', 'pandas', 'tqdm'],
     packages=find_packages(exclude=['tests']),
     long_description=long_description,
     long_description_content_type="text/markdown",
